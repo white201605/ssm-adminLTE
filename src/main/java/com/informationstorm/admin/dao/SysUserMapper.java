@@ -6,25 +6,25 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 public interface SysUserMapper {
-    long countByExample(SysUserExample example);
+	long countByExample(SysUserExample example);
 
-    int deleteByExample(SysUserExample example);
+	int deleteByExample(SysUserExample example);
 
-    int deleteByPrimaryKey(Integer id);
+	int deleteByPrimaryKey(Integer id);
 
-    int insert(SysUser record);
+	int insert(SysUser record);
 
-    int insertSelective(SysUser record);
+	int insertSelective(SysUser record);
 
-    List<SysUser> selectByExample(SysUserExample example);
+	List<SysUser> selectByExample(SysUserExample example);
 
-    SysUser selectByPrimaryKey(Integer id);
+	SysUser selectByPrimaryKey(Integer id);
 
-    int updateByExampleSelective(@Param("record") SysUser record, @Param("example") SysUserExample example);
+	int updateByExampleSelective(@Param("record") SysUser record, @Param("example") SysUserExample example);
 
-    int updateByExample(@Param("record") SysUser record, @Param("example") SysUserExample example);
+	int updateByExample(@Param("record") SysUser record, @Param("example") SysUserExample example);
 
-    int updateByPrimaryKeySelective(SysUser record);
+	int updateByPrimaryKeySelective(SysUser record);
 
-    int updateByPrimaryKey(SysUser record);
+	int updateByPrimaryKey(SysUser record);
 }

@@ -7,14 +7,14 @@ import com.informationstorm.admin.model.FrontUser;
  */
 public interface UserService {
 
-    /*
-    * 创建前台用户
-    */
-    public boolean addFrontUser(FrontUser frontUser);
+	/*
+	 * 创建前台用户
+	 */
+	public boolean addFrontUser(FrontUser frontUser);
 
-    /*
-    * 修改前台用户
-    */
-    public boolean updateFrontUser(FrontUser frontUser);
+	/*
+	 * 修改前台用户
+	 */
+	public boolean updateFrontUser(FrontUser frontUser);
 
 }

@@ -12,20 +12,20 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class UserServiceImpl implements UserService {
-    @Autowired
-    private FrontUserMapper frontUserMapper;
+	@Autowired
+	private FrontUserMapper frontUserMapper;
 
-    public boolean addFrontUser(FrontUser frontUser) {
-        if(frontUserMapper.insert(frontUser)>0){
-            return true;
-        }
-        return false;
-    }
+	public boolean addFrontUser(FrontUser frontUser) {
+		if (frontUserMapper.insert(frontUser) > 0) {
+			return true;
+		}
+		return false;
+	}
 
-    public boolean updateFrontUser(FrontUser frontUser) {
-        if(frontUserMapper.updateByPrimaryKey(frontUser)>0){
-            return true;
-        }
-        return false;
-    }
+	public boolean updateFrontUser(FrontUser frontUser) {
+		if (frontUserMapper.updateByPrimaryKey(frontUser) > 0) {
+			return true;
+		}
+		return false;
+	}
 }

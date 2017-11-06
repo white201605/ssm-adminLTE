@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 public class UserController {
-    /*
-        后台系统用户登录
-     */
-    @RequestMapping(value = {"/sysUser/login"})
-    @ResponseBody
-    public String syslogin(SysUser sysuser){
-        //验证账户名 密码
-        return null;
-    }
+	/*
+	 * 后台系统用户登录
+	 */
+	@RequestMapping(value = { "/sysUser/login" })
+	@ResponseBody
+	public String syslogin(SysUser sysuser) {
+		// 验证账户名 密码
+		return null;
+	}
 }
