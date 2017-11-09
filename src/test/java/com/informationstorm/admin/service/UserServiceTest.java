@@ -1,4 +1,4 @@
-package admin.service;
+package com.informationstorm.admin.service;
 
 import com.informationstorm.admin.model.FrontUser;
 import com.informationstorm.admin.service.UserService;
